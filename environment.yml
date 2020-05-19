@@ -1,0 +1,11 @@
+name: das-bue
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - beautifulsoup4
+  - ebooklib
+  - pycurl
+  - requests
+  - zlib
