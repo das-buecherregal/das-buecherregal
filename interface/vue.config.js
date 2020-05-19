@@ -1,4 +1,5 @@
 module.exports = {
-  publicPath: '/das-buecherregal/',
-  runtimeCompiler: true
+    publicPath: process.env.NODE_ENV === 'production' ?
+        '/' : '/das-buecherregal/',
+    runtimeCompiler: true
 }
