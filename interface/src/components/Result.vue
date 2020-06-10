@@ -5,7 +5,7 @@
         <div class="title">{{meta.title}}</div>
         <div class="author">Author: {{meta.author}} {{dateString}}</div>
         <div class="sizes">
-          <div class="type" v-if="!isSect">Entire Text ({{meta.section_count}} Chapters)</div>
+          <div class="type" v-if="!isSect">Entire Text ({{meta.section_count}} Chunk{{meta.section_count > 1 ? "s" : ""}})</div>
           <div
             class="type"
             v-bind:class="{sect: isSect}"
